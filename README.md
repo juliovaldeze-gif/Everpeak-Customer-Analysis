@@ -1,35 +1,34 @@
 # EverPeak Retail Analysis
 
-Este repositorio contiene el análisis realizado durante el Sprint 6 del caso EverPeak–SilverBasket.
+This repository contains the analysis developed during Sprint 6 of the **EverPeak–SilverBasket** case study.
 
-El dataset `everpeak_retail` incluye 2,000 órdenes de clientes con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales del retail. :contentReference[oaicite:2]{index=2}
+The `everpeak_retail` dataset contains **2,000 customer orders** with missing values, sentinel values, outliers, and data quality issues designed to simulate real-world retail data.
 
-## 📂 Contenido del repositorio
+## 📂 Repository Contents
 
-- `notebooks/everpeak_analysis.ipynb`
-  → Notebook principal con limpieza, EDA, distribuciones, outliers y conclusiones.
+- `notebooks/everpeak_analysis.ipynb`  
+  → Main notebook containing data cleaning, exploratory data analysis (EDA), distribution analysis, outlier detection, and conclusions.
 
-## ▶ Cómo abrir el notebook en Google Colab
+## ▶ How to Open the Notebook in Google Colab
 
-Haz clic en el siguiente botón:
+Click the button below:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK_EN_GITHUB)
 
-O:
+Or:
 
-1. Abre el archivo `.ipynb` en GitHub
-2. Haz clic en **Open in Colab**
+1. Open the `.ipynb` file on GitHub.
+2. Click **Open in Colab**.
 
-## 📘 Cómo reproducir el análisis
+## 📘 How to Reproduce the Analysis
 
-1. Abre `notebooks/everpeak_analysis.ipynb`
-2. Ejecuta las celdas en orden
-3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
+1. Open `notebooks/everpeak_analysis.ipynb`.
+2. Run the cells in order.
+3. The notebook automatically loads the dataset from `/data/` or from a public URL, as applicable.
 
-## 🧠 Objetivo del análisis
+## 🧠 Analysis Objectives
 
-- Identificar problemas de calidad de datos
-- Construir un pipeline de limpieza reproducible
-- Analizar comportamientos, distribuciones y outliers
-- Generar insights para el equipo de Estrategia e Integración de EverPeak
-Prác
+- Identify data quality issues.
+- Build a reproducible data-cleaning pipeline.
+- Analyze customer behavior, distributions, and outliers.
+- Generate actionable insights for the EverPeak Strategy and Integration team.
